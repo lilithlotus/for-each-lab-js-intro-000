@@ -3,3 +3,9 @@ function iterativeLog(array) {
     console.log(`${index}: ${array}`);
   });
 }
+
+function iterate(callback) {
+  var array = ["fun", "not fun", "why"];
+  array.forEach(callback);
+  return array;
+}
